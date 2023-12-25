@@ -18,8 +18,9 @@ body{
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(180px, 1fr));
   gap: 20px;
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
 
 }
 .skills-icons > div{
