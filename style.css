@@ -22,6 +22,10 @@ body{
   align-items: center;
 
 }
+.skills-icons > div{
+  justify-self: center;
+}
+
 .about-description{
   font-size: 22px;
 }
@@ -399,7 +403,6 @@ li {
 svg{
   height: 100px;
   width: 100px;
-  justify-self: center;
 }
 .fa-html5{
   color: #E44D26;
