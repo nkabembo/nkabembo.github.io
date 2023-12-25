@@ -70,7 +70,7 @@ body{
     width: 100%;
 }
 .two{
-  height: 700px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
 }
