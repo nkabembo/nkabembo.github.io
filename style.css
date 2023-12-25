@@ -20,11 +20,11 @@ body{
   gap: 20px;
   justify-content: center;
   align-content: center;
-  margin: auto;
 
 }
 .skills-icons > div{
-  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-description{
@@ -87,7 +87,7 @@ body{
 }
 .skills{
   background-color: var(--light-blue);
-  padding: 15px 15px 200px 15px;
+  padding: 15px 10px 200px 10px;
   border-radius: 15px;
   margin: auto;
   box-sizing: content-box;
