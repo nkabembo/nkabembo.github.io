@@ -84,6 +84,7 @@ body{
   background-color: var(--light-blue);
   padding: 15px 15px 200px 15px;
   border-radius: 15px;
+  margin: auto;
   box-sizing: content-box;
 }
 .skills-heading{
