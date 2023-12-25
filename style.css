@@ -399,6 +399,7 @@ li {
 svg{
   height: 100px;
   width: 100px;
+  justify-self: center;
 }
 .fa-html5{
   color: #E44D26;
