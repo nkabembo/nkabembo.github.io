@@ -10,8 +10,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-  
+    --light-blue: #D3E3FF;
+    --light-pink: #FF69B4;
+    --beige-dark: #FFEEEE;
+    --dark-blue: #7899D4;
+    --black-text: #171313;
+    color: var(--black-text);
+} 
 *{
     font-family: 'Lato',sans-serif;
     margin: 0;
@@ -27,10 +32,11 @@ footer{
 
 footer .contact-footer{
     text-align: center;
+    color: var(--light-blue);
 }
 footer .socialmedia{
     text-align: center;
-    color:#7899D4;
+    color:var(--dark-blue);
 }
 footer .socialmedia a{
     font-size: 2rem;
@@ -63,15 +69,18 @@ footer ul li{
     transition: all 0.4s;
 }
 footer ul li a:hover{
-    color: #7899D4;
+  color:var(--dark-blue);
 }
 
 footer .copyright{
     margin-top: 5px;
     text-align: center;
     font-size: 18px;
-    color: black;
+    color: var(--light-blue);
 
+}
+.footer-list{
+  color: var(--light-blue);
 }
 .navlogo {
     margin-top: 5px;
@@ -80,9 +89,8 @@ footer .copyright{
     height: 60px;
     margin-inline-start: 0.5em;
   }
-.navcontainer{
+.nav-container{
   background-color:#F4E6E6;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 .navbar{
   display: flex;
@@ -138,7 +146,7 @@ li {
   background: black;
 }
 @media screen and (max-width: 768px){
-  .navcontainer{
+  .nav-container{
     position: relative;
   }
   .nav-links{
@@ -169,7 +177,6 @@ li {
   
   .navbar{
     width:100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   }
   #mobile-menu{
     position: absolute;
