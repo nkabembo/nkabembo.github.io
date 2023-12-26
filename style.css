@@ -22,6 +22,9 @@ body{
   align-content: center;
 
 }
+.hero-container {
+  padding-bottom: 40px;
+}
 .skills-icons > div{
   margin-left: auto;
   margin-right: auto;
@@ -32,7 +35,7 @@ body{
 }
 .about{
   width:970px;
-  height: 500px;
+  height: 600px;
   position: relative;
   margin: auto;
 }
@@ -59,9 +62,10 @@ body{
 }
 .text-card-about{
   background-color: var(--light-blue);
-  padding: 10px 60px;
+  padding: 10px 60px 60px 60px;
   width: 60%;
-  height: 500px;
+  height: fit-content;
+  margin-bottom: 10px;
 
 }
 .one{
@@ -70,18 +74,22 @@ body{
     width: 100%;
 }
 .two{
-  height: 1000px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
 }
-
+.three{
+  scroll-margin-bottom: 25vh;
+  height: calc(fit-content - 25vh)
+}
 .skills-container{
   background-image: url('Images/texture-bckg.png');
   padding: 90px;
 }
 
 .container{
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     overflow-y: scroll;
     height: 100vh;
 }
@@ -233,7 +241,6 @@ li {
   }
   .text-card-about{
     width: 100%;
-    height: 100%;
   }
 }
 @media screen and (max-width: 768px){
@@ -375,19 +382,17 @@ li {
   text-shadow: 0 0 10px var(--light-pink);
 }
 .hero-container{
-  height: 600px;
-  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
   margin-top: 20px;
-  margin-bottom: 40px;
 }
 .hero-container .image{
    width: 65%;
    height: 600px;
+   margin-bottom: 60px;
 }
 
 
