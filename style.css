@@ -208,13 +208,13 @@ li {
   list-style: none;
 }
   .name{
-    color: #7899D4; 
+    color: var(--dark-blue); 
     font-size: 20px;
     display: flex;
     justify-content: start;
  }
  .firstname{
-    color: black; 
+    color: var(--black-text); 
  }
  .nav-links {
   list-style: none;
@@ -238,6 +238,7 @@ li {
   }
   .about{
     width: 90%;
+    height:max-content;
   }
   .text-card-about{
     width: 100%;
